@@ -1,0 +1,16 @@
+{
+  "name": "interview-repo",
+  "version": "1.0.0",
+  "description": "Repository of interview projects and questions",
+  "main": "index.js",
+  "scripts": {
+    "darth-pika:vanilla": "http-server -p 9001 ./darth-pikachu-vanilla/",
+    "darth-pika:react": "http-server -p 9002 ./darth-pikachu-react/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshua John Villahermosa <joshvillahermosa@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}

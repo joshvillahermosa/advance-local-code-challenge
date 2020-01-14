@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+  <head>
+    <title>Darth Pikachu: Vanilla JS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+
+      /* Simple class helpers */
+      .center {
+        text-align: center;
+      }
+
+      .bold {
+        font-weight: bold;
+      }
+
+      /* Cols */
+      .container {
+        margin: 30px;
+        display: flex;
+        align-items: flex-start;
+      }
+
+      .container-column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .card-container {
+        background-color: #F5F5F5;
+        border: 1px solid #000000;
+        border-radius: 2px;
+        padding: 10px;
+        margin: 5px;
+        word-break: break-all;
+      }
+
+      @media screen and (max-width: 768px) {
+        .container {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="center">Darth Pikachu</h1>
+
+    <div id="app"></div>
+  
+    <!-- Request from interview -->
+    <script src="https://unpkg.com/react@16.3.0/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16.3.0/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel" src="./index.jsx"></script>
+  </body>
+</html>
